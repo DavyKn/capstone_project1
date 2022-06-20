@@ -137,11 +137,6 @@ a:active {
   width: 50%;
 }
 
-.speaker_img img {
-  width: 100%;
-  height: auto;
-}
-
 .speaker_container .speaker_title {
   text-align: center;
   padding: 10px;
@@ -167,6 +162,8 @@ footer .footer-headline {
 }
 
 footer .sponsors {
+  justify-content: center;
+  justify-self: center;
   align-items: center;
   margin: 10px 0; 
 }
