@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.nav_menu {
+  display: flex;
+  padding: 30px 20px;
+  align-items: center;
+}
+
+.nav_menu .logo {
+  margin:0 auto ;
+}
+
+.intro_words,
+.dates {
+  background-image: url(./assets/main_big.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 24px;
+}
+
+.intro_words .title {
+  font-weight: 400;
+  font-size: 1.3em;
+  color: #ec5242;
+  padding-top: 40px;
+}
+
+.intro_words .subtitle {
+  font-weight: 700;
+  color: #ec5242;
+  font-size: 2em;
+}
+
+.intro_words .paragraph {
+  line-height: 1.6;
+  border: solid 4px #fff;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.dates {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.dates .day {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.dates .venue {
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.main_program {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./assets/pattern_bg.png);
+  background-color: #272a31;
+  color: #fff;
+
+}
+
+.main_program .main_prog_title {
+  margin: 0 auto;
+  border-bottom: solid 2px #ec5242;
+  padding: 40px 10px 20px 10px;
+  margin-bottom: 20px;
+}
+
+.main_program .card_container {
+  display: flex;
+  padding: 16px 8px;
+  background-color: #d3d3d323;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.card_container .card_title {
+  width: 30%;
+  text-align: center;
+  align-self: center;
+  color: #ec5242;
+  font-size: 0.875em;
+}
+
+.card_container .card_description {
+  width: 50%;
+  font-size: 0.75em;
+}
+
+.main_speakers {
+  display: flex;
+  flex-direction: column;
+  color: #272a31;
+}
+
+.main_speakers .speakers_headline {
+  margin: 0 auto;
+  padding: 40px 10px 20px 10px;
+  border-bottom: solid 2px #ec5242;
+  margin-bottom: 30px;
+}
+
+.speaker_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.speaker_container .speaker_img {
+  width: 50%;
+}
+
+.speaker_img img {
+  width: 100%;
+  height: auto;
+}
+
+.speaker_container .speaker_title {
+  text-align: center;
+  padding: 10px;
+}
+.speaker_container .speaker_intro {
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.desktop_menu {
+  display: none;
+}
+@media only screen and (min-width: 786px) {
+  .hamburger {
+    display: none;
+  }
+ 
+}
+
+
