@@ -146,21 +146,34 @@ a:active {
   text-align: center;
   padding: 10px;
 }
+
 .speaker_container .speaker_intro {
   padding: 5px;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  color: #d3d3d3;
+  background: #fff;
+}
 
+footer .footer-headline {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 700;
+}
 
+footer .sponsors {
+  align-items: center;
+  margin: 10px 0; 
+}
 
-
-
-
-
-
-
-
-
+footer .attribute {
+  text-align: center;
+}
 
 
 
