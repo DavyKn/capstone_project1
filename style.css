@@ -34,11 +34,13 @@ a:active {
   margin:0 auto ;
 }
 
-.intro_words,
-.dates {
+.intro_words {
   background-image: url(./assets/main_big.png);
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 0 24px;
 }
 
@@ -62,19 +64,17 @@ a:active {
   padding: 5px;
 }
 
-.dates {
-  text-align: center;
-  padding-top: 30px;
-}
-
-.dates .day {
+.day {
   font-weight: 700;
   margin-bottom: 10px;
+  text-align: center;
+  padding-top: 20px;
 }
 
-.dates .venue {
+.venue {
   font-weight: 300;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 .main_program {
@@ -172,15 +172,114 @@ footer .attribute {
   text-align: center;
 }
 
-
-
-.desktop_menu {
+.desktop_menu,
+.top_menu {
   display: none;
 }
+
+
 @media only screen and (min-width: 786px) {
   .hamburger {
     display: none;
   }
+
+  .top_menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: #272a31;
+    color: #fff;
+  }
+
+  .top_menu > * {
+    margin-left: 20px;
+  }
+
+  .top_menu .span {
+    margin-right: 100px;
+  }
+
+  
+  .nav_menu .desktop_menu {
+    display: flex;
+    list-style: none;
+    width: 70%;
+    justify-content: flex-start;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: #d3d3d3;
+  }
+
+  .desktop_menu > * {
+    padding: 0 40px;
+  }
+
+  .intro_words {
+    padding: 60px; 
+  }
+
+  .intro_words .title {
+    font-size: 3em;
+  }
+
+  .intro_words .subtitle {
+    font-size: 5em;
+  }
+
+  .intro_words .paragraph {
+    font-size: 1.3em;
+    width: 50%; 
+    margin-bottom: 40px;
+  }
+
+  .day,
+  .venue {
+    font-size: 2em;
+  }
+
+  .main_program .main_prog_title {
+    font-size: 2em;
+  }
+
+  .card_wrap_container {
+    display: flex;
+    width: 70%;
+    margin: 40px auto 60px auto;
+  }
+
+  .card_container {
+    flex-direction: column;
+    margin-right: 10px;
+    align-items: center;
+  }
+
+  .card_container > * {
+    padding: 10px;
+  }
+
+  .card_container .card_title {
+    font-size: 1.4em;
+    width: 100%;
+  }
+
+  .card_container .card_description {
+    font-size: 1.1em;
+    width: 100%;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
  
 }
 
