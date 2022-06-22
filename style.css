@@ -192,24 +192,38 @@ footer {
   justify-content: center;
   align-content: center;
   color: #d3d3d3;
-  background: #fff;
+  background: #272a31;
 }
 
-footer .footer-headline {
+footer .sponsor_headline {
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-size: 1.3em;
-  font-weight: 700;
+  padding:20px 0 10px 0;
+  border-bottom: solid 1px #ec5242;
+  margin: 0 150px;
+  color: #d3d3d3;
+  font-weight: 100;
 }
 
 footer .sponsors {
-  justify-content: center;
-  justify-self: center;
-  align-items: center;
-  margin: 10px 0; 
+  text-align: center;
+  list-style: none;
+  padding-top: 20px;
+}
+
+.sponsors a {
+  font-size: 4em;
+  color: #d3d3d3;
 }
 
 footer .attribute {
   text-align: center;
+  font-size: 1em;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
 }
 
 .desktop_menu,
@@ -334,6 +348,21 @@ footer .attribute {
     font-size: 1em;
   }
 
+  footer .sponsor_headline {
+    margin: 0 auto;
+  }
+
+  footer .sponsors {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+  }
+
+  footer .attribute {
+    width: 100%;
+  }
+
   
+
 
 }
