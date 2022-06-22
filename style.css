@@ -245,6 +245,7 @@ footer .attribute {
     display: flex;
     width: 70%;
     margin: 40px auto 60px auto;
+    padding-bottom: 80px;
   }
 
   .card_container {
@@ -266,6 +267,27 @@ footer .attribute {
     font-size: 1.1em;
     width: 100%;
   }
+
+  .main_speakers .speakers_headline {
+    font-size: 2em;
+  }
+
+  .speakers_wrap {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-row: 33% 33% 33%;
+    grid-column-start: 4;
+    grid-column-end: 2;
+    align-items: center; 
+  }
+
+  
+
+  
+
+
+
+
 
   
 
