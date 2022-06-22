@@ -71,6 +71,12 @@ a:active {
   font-weight: 400;
 }
 
+.mob_div .red {
+  background-color: #ec5242;
+  padding: 20px;
+}
+
+
 .intro_words {
   background-image: url(./assets/main_big.png);
   background-size: cover;
@@ -165,7 +171,7 @@ a:active {
 
 .speaker_container {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin: 20px 0;
 }
 
@@ -310,12 +316,15 @@ footer .attribute {
   }
 
   .speakers_wrap {
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
-    grid-row: 33% 33% 33%;
-    grid-column-start: 4;
-    grid-column-end: 2;
-    align-items: center; 
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    border: solid 1px green;
+  }
+
+  .speakers_wrap .speaker_container {
+    display: flex;
+    width: 50%;
   }
 
 }
