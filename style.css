@@ -315,14 +315,14 @@ footer .attribute {
 
   .speakers_wrap {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 20% 20%;
     justify-items: center;
-    row-gap: 0;
-   
+    align-items: center; 
   }
 
   .speakers_wrap .speaker_container {
     display: flex;
+    flex-direction: column;
     width: 50%;
     margin-bottom: 20px;
 
