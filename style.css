@@ -73,7 +73,6 @@ a:active {
 
 .intro_words {
   background-image: url(./assets/main_big.png);
-  background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
