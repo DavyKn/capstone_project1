@@ -315,17 +315,15 @@ footer .attribute {
 
   .speakers_wrap {
     display: grid;
-    grid-template-columns: 20% 20%;
+    grid-template-columns: 50% 50%;
     justify-items: center;
     align-items: center; 
   }
 
   .speakers_wrap .speaker_container {
     display: flex;
-    flex-direction: column;
     width: 50%;
-    margin-bottom: 20px;
-
+    margin: 0 50px 20px 50px;
   }
 
   .speaker_title h4 {
@@ -335,5 +333,7 @@ footer .attribute {
   .speaker_title p {
     font-size: 1em;
   }
+
+  
 
 }
