@@ -83,6 +83,63 @@ a:active {
   display: none;
 }
 
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+  text-align: center;
+  background-color: #d3d3d33f;
+}
+
+.main_heading {
+  font-size: 1em;
+  color: #ec5242;
+  line-height: 1.6;
+  font-weight: 100;
+}
+
+.introduction .intro {
+  font-size: 1em;
+  padding:30px 0;
+}
+
+.intro span {
+  color: #ec5242;
+}
+
+.introduction .explanation {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #272a3121;
+  background-color: #fff;
+  padding: 20px 10px;
+  text-align: left;
+}
+
+.explanation .details {
+  line-height: 1.6;
+  font-size: 0.9em;
+}
+
+.explanation .dates {
+  font-weight: 700;
+  font-size: 1.1em;
+  text-align: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.introduction h5 {
+  font-size: 0.7em;
+  font-weight: 300;
+  padding: 40px 0 30px 0;
+  border-bottom: solid 2px #777474;
+  margin-bottom: 10px;
+}
+
+
+
 
 @media only screen and (min-width: 786px) {
   .hamburger ,
