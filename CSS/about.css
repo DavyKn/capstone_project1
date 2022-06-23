@@ -186,6 +186,15 @@ a:active {
   padding: 40px 0;
 }
 
+.past_events h2::after {
+  content: '';
+  display: block;
+  width: 2em;
+  height: 1px;
+  margin: 10px auto;
+  background: #ec5242;
+}
+
 .past_events h3 {
   line-height: 1.6;
   font-size: 0.9em;
