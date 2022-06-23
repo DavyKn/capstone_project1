@@ -282,7 +282,6 @@ footer .attribute {
     font-size: 1.3em;
     width: 50%;
     margin-bottom: 40px;
-
   }
 
   .day,
@@ -330,9 +329,8 @@ footer .attribute {
     grid-template-columns: 50% 50%;
     justify-items: center;
     align-items: center;
-
   }
-  
+
   .speakers_wrap .speaker_container {
     display: flex;
     width: 50%;
@@ -360,5 +358,4 @@ footer .attribute {
   footer .attribute {
     width: 100%;
   }
-
 }
