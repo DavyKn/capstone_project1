@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-p {}
-
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -126,7 +124,6 @@ a:active {
   background-image: url(./assets/pattern_bg.png);
   background-color: #272a31;
   color: #fff;
-
 }
 
 .main_program .main_prog_title {
@@ -230,7 +227,6 @@ footer .attribute {
   display: none;
 }
 
-
 @media only screen and (min-width: 786px) {
   .hamburger ,
   .mobile_menu {
@@ -253,7 +249,6 @@ footer .attribute {
     margin-right: 100px;
   }
 
-  
   .nav_menu .desktop_menu {
     display: flex;
     list-style: none;

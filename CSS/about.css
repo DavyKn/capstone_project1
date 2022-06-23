@@ -225,11 +225,6 @@ footer p ,
   padding: 20px;
 }
 
-
-
-
-
-
 @media only screen and (min-width: 786px) {
   .hamburger ,
   .mobile_menu {
@@ -252,7 +247,6 @@ footer p ,
     margin-right: 100px;
   }
 
-  
   .nav_menu .desktop_menu {
     display: flex;
     list-style: none;
