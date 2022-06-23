@@ -260,4 +260,87 @@ footer p ,
   .desktop_menu > * {
     padding: 0 40px;
   }
+
+  .introduction {
+    padding: 0 300px;
+    background-image:url(../assets/main_big.png);
+  }
+
+  .main_heading {
+    font-size: 3em;
+    padding: 20px 200px;
+  }
+
+  .main_heading::after {
+    content: '';
+    display: block;
+    width: 2.5em;
+    height: 1px;
+    margin: 0 auto;
+    background: #ec5242;
+  }
+
+  .introduction .intro {
+    font-size: 2em;
+  }
+
+  .details ,
+  .logo_contest {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .explanation .dates {
+    font-size: 1.5em;
+  }
+
+  .introduction h5 {
+    font-size: 1.1em;
+    border-bottom: none;
+  }
+
+  .center {
+    padding: 0 280px;
+  }
+
+  .center .top_intro {
+    font-size: 2em;
+    font-weight: 400;
+    padding-top: 100px;
+  }
+
+  .logo_image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo_image img {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .past_events h2 {
+    font-size: 1.6em;
+  }
+
+  .past_events h3 {
+    font-size: 1.3em;
+  }
+
+  .past_events_img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .past_events_img img {
+    width: auto;
+    height: auto;
+    margin: 10px;
+  }
+
+  footer p {
+    font-size: 1.3em;
+  }
 }
