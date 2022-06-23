@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-p {}
-
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -117,9 +115,11 @@ a:active {
   text-align: left;
 }
 
-.explanation .details {
+.details ,
+.logo_contest {
   line-height: 1.6;
   font-size: 0.9em;
+  font-weight: 300;
 }
 
 .explanation .dates {
@@ -137,6 +137,86 @@ a:active {
   border-bottom: solid 2px #777474;
   margin-bottom: 10px;
 }
+
+.center {
+  border-bottom: solid 1px #272a3121;
+}
+
+.center ,
+.past_events {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:0 20px;
+}
+
+.top_intro {
+  font-size: 1.6em;
+  text-align: center;
+  padding: 40px 0 30px 0;
+  font-weight: 300;
+}
+
+.top_intro::after {
+  content: '';
+  display: block;
+  margin: 10px auto;
+  width: 2.5em;
+  height: 1px;
+  background: #ec5242;
+}
+
+.logo_image {
+  margin: 40px 0;
+}
+
+.logo_image img ,
+.past_events_img img {
+  width: 100%;
+  height: auto;
+}
+
+.logo_contest {
+  padding-bottom: 20px;
+}
+
+.past_events h2 {
+  font-size: 1.2em;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.past_events h3 {
+  line-height: 1.6;
+  font-size: 0.9em;
+  font-weight: 300;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.past_events_img {
+  margin-bottom: 60px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #272a31;
+}
+
+footer p {
+  text-align: center;
+  color: #fff;
+}
+
+footer p ,
+.footer_img {
+  padding: 20px;
+}
+
+
 
 
 
