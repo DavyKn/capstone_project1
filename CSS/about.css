@@ -252,13 +252,16 @@ footer p ,
     list-style: none;
     width: 70%;
     justify-content: flex-start;
-    font-weight: 400;
-    font-size: 1.3em;
-    color: #d3d3d3;
   }
 
   .desktop_menu > * {
     padding: 0 40px;
+  }
+
+  .desktop_menu li a {
+    color: #272a31;
+    font-weight: 400;
+    font-size: 1.3em;
   }
 
   .introduction {

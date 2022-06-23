@@ -77,7 +77,7 @@ a:active {
 }
 
 .intro_words {
-  background-image: url(./assets/main_big.png);
+  background-image: url(../assets/main_big.png);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -121,7 +121,7 @@ a:active {
 .main_program {
   display: flex;
   flex-direction: column;
-  background-image: url(./assets/pattern_bg.png);
+  background-image: url(../assets/pattern_bg.png);
   background-color: #272a31;
   color: #fff;
 }
@@ -254,6 +254,9 @@ footer .attribute {
     list-style: none;
     width: 70%;
     justify-content: flex-start;
+  }
+
+  .desktop_menu li a {
     font-weight: 400;
     font-size: 1.3em;
     color: #d3d3d3;
