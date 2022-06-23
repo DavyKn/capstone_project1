@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -31,7 +31,7 @@ a:active {
 }
 
 .nav_menu .logo {
-  margin:0 auto ;
+  margin: 0 auto;
 }
 
 .mobile_menu {
@@ -99,7 +99,7 @@ a:active {
 
 .introduction .intro {
   font-size: 1em;
-  padding:30px 0;
+  padding: 30px 0;
 }
 
 .intro span {
@@ -115,7 +115,7 @@ a:active {
   text-align: left;
 }
 
-.details ,
+.details,
 .logo_contest {
   line-height: 1.6;
   font-size: 0.9em;
@@ -142,12 +142,12 @@ a:active {
   border-bottom: solid 1px #272a3121;
 }
 
-.center ,
+.center,
 .past_events {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding:0 20px;
+  padding: 0 20px;
 }
 
 .top_intro {
@@ -170,7 +170,7 @@ a:active {
   margin: 40px 0;
 }
 
-.logo_image img ,
+.logo_image img,
 .past_events_img img {
   width: 100%;
   height: auto;
@@ -220,13 +220,13 @@ footer p {
   color: #fff;
 }
 
-footer p ,
+footer p,
 .footer_img {
   padding: 20px;
 }
 
 @media only screen and (min-width: 786px) {
-  .hamburger ,
+  .hamburger,
   .mobile_menu {
     display: none;
   }
@@ -266,7 +266,7 @@ footer p ,
 
   .introduction {
     padding: 0 300px;
-    background-image:url(../assets/main_big.png);
+    background-image: url(../assets/main_big.png);
   }
 
   .main_heading {
@@ -287,7 +287,7 @@ footer p ,
     font-size: 2em;
   }
 
-  .details ,
+  .details,
   .logo_contest {
     font-size: 1.3em;
     text-align: center;

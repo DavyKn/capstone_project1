@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -31,7 +31,7 @@ a:active {
 }
 
 .nav_menu .logo {
-  margin:0 auto ;
+  margin: 0 auto;
 }
 
 .mobile_menu {
@@ -196,7 +196,7 @@ footer .sponsor_headline {
   justify-content: center;
   text-align: center;
   font-size: 1.3em;
-  padding:20px 0 10px 0;
+  padding: 20px 0 10px 0;
   border-bottom: solid 1px #ec5242;
   margin: 0 150px;
   color: #d3d3d3;
@@ -228,7 +228,7 @@ footer .attribute {
 }
 
 @media only screen and (min-width: 786px) {
-  .hamburger ,
+  .hamburger,
   .mobile_menu {
     display: none;
   }
@@ -267,7 +267,7 @@ footer .attribute {
   }
 
   .intro_words {
-    padding: 60px; 
+    padding: 60px;
   }
 
   .intro_words .title {
@@ -280,8 +280,9 @@ footer .attribute {
 
   .intro_words .paragraph {
     font-size: 1.3em;
-    width: 50%; 
+    width: 50%;
     margin-bottom: 40px;
+
   }
 
   .day,
@@ -328,9 +329,10 @@ footer .attribute {
     display: grid;
     grid-template-columns: 50% 50%;
     justify-items: center;
-    align-items: center; 
-  }
+    align-items: center;
 
+  }
+  
   .speakers_wrap .speaker_container {
     display: flex;
     width: 50%;
@@ -358,4 +360,5 @@ footer .attribute {
   footer .attribute {
     width: 100%;
   }
+
 }
