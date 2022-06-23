@@ -14,7 +14,7 @@ const myObjects = [{
   text: 'She is the champion of the girl child, Has several initiates that empower the girl child from under privileged areas.',
 },
 {
-  imgUrl: './assets/maina_kageni.jpg',
+  imgUrl: './assets/maina_kageni.jpg ',
   speakerTitle: 'Maina Kageni',
   text: 'Radio presenter for Classic Fm. He resonates well with the youth, He is well knownvocal voice for the rights of the youth.',
 },
