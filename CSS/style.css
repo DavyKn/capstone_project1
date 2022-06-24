@@ -468,11 +468,11 @@ footer {
   .speaker_container:nth-child(4),
   .speaker_container:nth-child(5),
   .speaker_container:nth-child(6) {
-  display: flex;
+    display: flex;
   }
 
   .speaker_title {
-   margin-left: 150px;
+    margin-left: 150px;
   }
 
   .speaker_title h4 {
