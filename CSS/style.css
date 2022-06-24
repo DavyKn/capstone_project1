@@ -108,14 +108,14 @@ a:active {
 .day {
   font-weight: 700;
   margin-bottom: 10px;
-  text-align: center;
+  text-align: left;
   padding-top: 20px;
 }
 
 .venue {
   font-weight: 300;
   padding-bottom: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .main_program {
@@ -141,6 +141,10 @@ a:active {
   margin-bottom: 10px;
 }
 
+.card_container:hover {
+  border: solid 3px #fff;
+}
+
 .card_container .card_title {
   width: 30%;
   text-align: center;
@@ -152,6 +156,22 @@ a:active {
 .card_container .card_description {
   width: 50%;
   font-size: 0.75em;
+}
+
+.join_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+  background: #ec5242;
+  border: none;
+}
+
+.join_button h3 {
+  font-size: 1.1em;
+  font-weight: 300;
+  color: #fff;
+  padding: 40px;
 }
 
 .main_speakers {
@@ -223,19 +243,22 @@ footer .attribute {
 }
 
 .desktop_menu,
-.top_menu {
+.top_menu,
+.see_prog {
   display: none;
 }
 
 @media only screen and (min-width: 786px) {
   .hamburger,
-  .mobile_menu {
+  .mobile_menu,
+  .join_button {
     display: none;
   }
 
   .top_menu {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding: 20px;
     background-color: #272a31;
     color: #fff;
@@ -245,8 +268,8 @@ footer .attribute {
     margin-left: 20px;
   }
 
-  .top_menu .span {
-    margin-right: 100px;
+  .top_menu .span:last-child {
+    margin-right: 400px;
   }
 
   .nav_menu .desktop_menu {
@@ -254,16 +277,26 @@ footer .attribute {
     list-style: none;
     width: 70%;
     justify-content: flex-start;
+    align-items: center;
   }
 
   .desktop_menu li a {
     font-weight: 400;
     font-size: 1.3em;
-    color: #d3d3d3;
+    color: #272a31;
+  }
+
+  .desktop_menu a:active {
+    color: #ec5242;
   }
 
   .desktop_menu > * {
     padding: 0 40px;
+  }
+
+  .desktop_menu .border_red {
+    border: solid 4px #ec5242;
+    padding: 10px;
   }
 
   .intro_words {
@@ -318,6 +351,23 @@ footer .attribute {
   .card_container .card_description {
     font-size: 1.1em;
     width: 100%;
+  }
+
+  .see_prog {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin-bottom: 90px;
+  }
+
+  .see_prog span::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 13em;
+    height: 1px;
+    background-color: #d3d3d3;
   }
 
   .main_speakers .speakers_headline {
