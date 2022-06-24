@@ -204,7 +204,7 @@ a:active {
 .speaker_container:nth-child(3),
 .speaker_container:nth-child(4),
 .speaker_container:nth-child(5),
-.speaker_container:nth-child(6){
+.speaker_container:nth-child(6) {
   display: none;
 }
 
@@ -219,7 +219,7 @@ a:active {
 .speaker_img .top_left {
   position: relative;
   top: 0;
-  left: 0
+  left: 0;
 }
 
 .speaker_img .absolute {
@@ -240,10 +240,6 @@ a:active {
 
 .speaker_title p {
   font-size: 0.9em;
-}
-
-.more_button {
-  margin: 20px 10;
 }
 
 .more_button {
@@ -476,7 +472,7 @@ footer {
   }
 
   .speaker_title {
-    margin-left: 150px;
+   margin-left: 150px;
   }
 
   .speaker_title h4 {

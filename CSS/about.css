@@ -250,7 +250,7 @@ footer {
   list-style: none;
 }
 
-.sponsors li a{
+.sponsors li a {
   color: #fff;
   font-size: 1.4em;
 }
@@ -265,10 +265,9 @@ footer {
   background: #272a31;
 }
 
-.footer_attribute p{
+.footer_attribute p {
   margin-left: 20px;
 }
-
 
 @media only screen and (min-width: 786px) {
   .hamburger,
