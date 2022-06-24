@@ -27,7 +27,8 @@ const speakers = () => {
   for (let i = 0; i < myObjects.length; i += 1) {
     str += `<div class="speaker_container">
     <div class="speaker_img">
-    <img src="${myObjects[i].imgUrl}">
+    <img class="top_left" src="${myObjects[i].imgUrl}">
+    <img class="absolute" src="${myObjects[i].imgUrl1}">
     </div>
     <div class="speaker_title">
        <h4>${myObjects[i].speakerTitle}</h4>
