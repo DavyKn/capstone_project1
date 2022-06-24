@@ -22,8 +22,8 @@ navMenu.forEach((element) => {
 
 // dynamicLoading
 
-const speakers= () => {
-  let str = '' ;
+const speakers = () => {
+  let str = '';
   for (let i = 0; i < myObjects.length; i += 1) {
     str += `<div class="speaker_container">
     <div class="speaker_img">
