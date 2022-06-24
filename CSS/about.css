@@ -14,6 +14,7 @@ a:link {
 
 a:visited {
   text-decoration: none;
+  color: #ec5242;
 }
 
 a:hover {
@@ -308,6 +309,14 @@ footer {
     color: #272a31;
     font-weight: 400;
     font-size: 1.3em;
+  }
+
+  .desktop_menu a:active {
+    color: #ec5242;
+  }
+
+  .desktop_menu a:hover {
+    color: #ec5242;
   }
 
   .introduction {
