@@ -31,6 +31,7 @@ and then open index.html in your browser.
 - Github livesite: (https://davykn.github.io/capstone_project1/)
 - Twitter: [@davykk04](https://twitter.com/davykk04)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/davis-katana-246600159/)
+-Loom video: link(https://www.loom.com/share/fab8471b7f95471d97f84d1f8e31cc91)
 
 
 ## 🤝 Contributing
